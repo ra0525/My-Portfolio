@@ -1,223 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN css -->
     <link rel="stylesheet" href="style.css">
-    <title>My Website</title>
+    <title>My Portfolio</title>
 </head>
-
 <body>
-    <!-- Header -->
-    <section id="header">
-        <div class="header container">
-            <div class="nav-bar">
-                <div class="brand">
-                    <a href="#hero">
-                        <h1><span>R</span>ishabh <span>B</span>hardwaj</h1>
-                    </a>
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">About</a>
+            <a href="#services">Education</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, MySelf</h3>
+            <h1>Rishabh Bhardwaj</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid id asperiores voluptatum, dolor nesciunt quia voluptate sed officia iure aspernatur vero repellendus quisquam reprehenderit esse totam ipsum, eos facere voluptates.</p>
+            <div class="social-media">
+                <a href="https://github.com/ra0525" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ra2505/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto: rishabhbhardwaj895@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1qa9qriJBDTyu4l8j3DILGNnWsBO7I9DG" target="_blank" class="btn"> Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/My Pic.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/My Photo 1.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora reprehenderit a excepturi vero voluptate sapiente voluptatibus enim, tenetur nobis qui quae, quas ab cumque et? Deserunt accusamus ullam temporibus voluptates.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION DESIGN -->
+    <section class="services" id="services">
+        <h2 class="heading">Education <span>Details</span></h2>
+        <div class="services-container">
+            <div class="services-box box1">
+                <i class="fa-solid fa-user-graduate"></i>
+                <h1>BACHELOR OF TECHNOLOGY</h1>
+                <h3>Computer Science and Engineering</h3>
+                <h2>Siksha 'O' Anusandhan University, Bhubaneswar</h2>
+                <h4>8.38 CGPA</h4>
+            </div>
+            <div class="services-box box2">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h1>Senior Secondary(12th)</h1>
+                <h2>PCM</h2>
+                <h2>Holy Cross Public School, Muzaffarpur</h2>
+                <h4>63.4%</h4>
+            </div>
+            <div class="services-box box3">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h1>Secondary(10th)</h1>
+                <h2>Kendriya Vidyalaya, Muzaffarpur</h2>
+                <h4>79.8%</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/img-1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h1>Analysis of Superstore</h1>
+                    <h4>Numpy | Pandas | Matlplotlib | Seaborn</h4>
+                    <p>This project focuses on Exploratory Data Analysis and Visualisation using Python programming.</p>
+                    <p>It is based on Customer, Sales, Profit, Product, Category, Sub-category, and Region.</p>
+                    <a href="https://github.com/ra0525/Analysis-of-superstore.git" target="_blank" class="btn">Source code</a>
                 </div>
-                <div class="nav-list">
-                    <div class="hamburger">
-                        <div class="bar"></div>
-                    </div>
-                    <ul>
-                        <li><a href="#hero" data-after="Home">Home</a></li>
-                        <li><a href="#services" data-after="services">Education</a></li>
-                        <li><a href="#projects" data-after="Projects">Projects</a></li>
-                        <li><a href="#about" data-after="About">About</a></li>
-                        <li><a href="#contact" data-after="Contact">Contact</a></li>
-                    </ul>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/img-1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h1>E-commerce</h1>
+                    <h4>JavaScript | CSS | HTML</h4>
+                    <p>Created a fully responsive and interactive UI E-commerce website with features like Product Listing, Search, Filter, Sort options and many more.</p>
+                    <p>Enabled secure online transactions by integrating Stripe Payment Gateway.</p>
+                    <a href="https://github.com/ra0525/E-commerce.git" target="_blank" class="btn">Source code</a>
+                    <a href="https://rishabhecommerce.netlify.app/" target="_blank" class="btn">Website</a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/img-1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h1>My Portfolio</h1>
+                    <h4>HTML | CSS | JavaScript</h4>
+                    <p>A responsive portfolio page using HTML, CSS and JavaScript.</p>
+                    <a href="https://github.com/ra0525/My-Portfolio.git" target="_blank" class="btn">Source code</a>
+                    <a href="https://rishabh-myportfolio.netlify.app/" target="_blank" class="btn">Website</a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Header -->
 
-
-    <!-- Hero Section  -->
-    <section id="hero">
-        <div class="hero container">
-            <div>
-                <h1>Hello, <span></span></h1>
-                <h1>My Name is <span></span></h1>
-                <h1>Rishabh <span></span></h1>
-                <a href="#about" type="button" class="cta">Portfolio</a>
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
             </div>
-        </div>
+            <div class="input-box">
+                <input type="phone" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
     </section>
-    <!-- End Hero Section  -->
 
-    <!-- Education Section -->
-    <section id="services">
-        <div class="services container">
-            <div class="service-top">
-                <h1 class="section-title">Education <span>Details</span></h1>
-            </div>
-            <div class="service-bottom">
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/clouds/100/graduation-cap.png" /></div>
-                    <h1>Bachelor of Technology</h1>
-                    <h2>Computer Science and Engineering</h2>
-                    <p>Siksha 'O' Anusandhan University, Bhubaneswar</p>
-                    <p>8.32 CGPA</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/clouds/100/graduation-cap.png" /></div>
-                    <h1>12th (PCM)</h1>
-                    <p>Holy Cross Public School, Muzaffarpur</p>
-                    <p>63.4%</p>
-                </div>
-                <div class="service-item">
-                    <div class="icon"><img src="https://img.icons8.com/clouds/100/graduation-cap.png" /></div>
-                    <h1>10th</h1>
-                    <p>Kendriya Vidyalaya, Muzaffarpur</p>
-                    <p>79.8%</p>
-                </div>
-            </div>
+    <!-- FOOTER SECTION DESIGN -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Rishabh Bhardwaj | All Rights Reserved</p>
         </div>
-    </section>
-    <!-- End Education Section -->
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+     </footer>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="projects container">
-            <div class="projects-header">
-                <h1 class="section-title">Recent <span>Projects</span></h1>
-            </div>
-            <div class="all-projects">
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 1</h1>
-                        <h2>Analysis of superstore</h2>
-                        <h3>(Numpy | Pandas | Matplotlib | Seaborn)</h3>
-                        <a href="https://github.com/ra0525/Analysis-of-superstore/tree/3a5a6a3f7e2268d5b350dd4b04fc94821d73be68"
-                            target="_blank">Source code</a>
-                        <p>This project focuses on Exploratory Data Analysis and Visualisation using Python programming.</p>
-                        <p>It is based on Customer, Sales, Profit, Product, Category, Sub-category, and Region.</p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./img/img-1.jpg" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 2</h1>
-                        <h2>E-commerce</h2>
-                        <h3>(JavaScript | CSS)</h3>
-                        <a href="https://github.com/ra0525/E-commerce.git" target="_blank">Source code</a>
-                        <p>Created a fully  responsive and interactive UI E-commerce website with features like Product Listing, Search, 
-                            Filter, Sort options and many more.</p>
-                        <p>Enabled secure online transactions by integrating Stripe Payment Gateway.</p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./img/img-1.jpg" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 3</h1>
-                        <h2>My Portfolio</h2>
-                        <h3>(HTML | CSS | JavaScript)</h3>
-                        <a href="https://github.com/ra0525/My-Portfolio.git" target="_blank">Source code</a>
-                        <p>A responsive portfolio page using HTML, CSS and JavaScript.</p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./img/img-1.jpg" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Projects Section -->
+    <!-- SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="about container">
-            <div class="col-left">
-                <div class="about-img">
-                    <img src="./img/My Photo 1.jpg" alt="img">
-                </div>
-            </div>
-            <div class="col-right">
-                <h1 class="section-title">About <span>me</span></h1>
-                <h2>Undergrad Student</h2>
-                <p>I am Rishabh Bhardwaj graduated from Siksha 'O' Anusandhan University pursuing
-                    Bachelor of Technology majoring in Computer Science and Engineering. I have an aggregate CGPA of
-                    8.32. I belongs to Muzaffarpur, Bihar.</p>
-                <p>I had done my 10th schooling from Kendriya Vidyalaya, Muzaffarpur scoring 79.8% and 12th schooling
-                    from Holy Cross Public School, Muzaffarpur scoring 63.4%. I am hardworking individual and fully
-                    committed to my work and I am always eager to learn new things.</p>
-                <p>I am proficient in the programming language in Python. I have good command in Front End Development.
-                </p>
-                <a href="https://drive.google.com/drive/folders/1qa9qriJBDTyu4l8j3DILGNnWsBO7I9DG?usp=sharing" target="_blank" class="cta">Download Resume</a>
-            </div>
-        </div>
-    </section>
-    <!-- End About Section -->
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="contact container">
-            <div class="contact-header">
-                <h1 class="section-title">Contact <span>info</span></h1>
-            </div>
-            <div class="contact-items">
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/nolan/64/apple-phone.png" /></div>
-                    <div class="contact-info">
-                        <h1>Phone</h1>
-                        <a href="tel:+91 7667220314">
-                            <h2>+91 7667220314</h2>
-                        </a>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/emoji/48/e-mail.png" /></div>
-                    <div class="contact-info">
-                        <h1>Email</h1>
-                        <a href="mailto: 2041002107.rishabhbhardwaj@gmail.com" target="_blank">
-                            <h2>2041002107.rishabhbhardwaj@ gmail.com</h2>
-                        </a>
-                        <a href="mailto: rishabhbhardwaj895@gmail.com" target="_blank">
-                            <h2>rishabhbhardwaj895@gmail.com</h2>
-                        </a>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-                    <div class="contact-info">
-                        <h1>Address</h1>
-                        <h2>Damuchak road, Muzaffarpur, Bihar, 842001</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact Section -->
 
-    <!-- Footer -->
-    <section id="footer">
-        <div class="footer container">
-            <div class="brand">
-                <h1><span>R</span>ishabh <span>B</span>hardwaj</h1>
-            </div>
-            <div class="social-icon">
-                <div class="social-item">
-                    <a href="https://www.linkedin.com/in/rishabhbhardwaj895/" target="_blank"><img
-                            src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin" /></a>
-                </div>
-                <div class="social-item">
-                    <a href="https://github.com/ra0525" target="_blank"><img
-                            src="https://img.icons8.com/nolan/64/github.png" alt="github" /></a>
-                </div>
-            </div>
-            <p>Made with ❤️ by Rishabh Bhardwaj</p>
-        </div>
-    </section>
-    <!-- End Footer -->
-    <script src="./app.js"></script>
+    <!-- MAIN JS -->
+    <script src="script.js"></script>
 </body>
-
 </html>
