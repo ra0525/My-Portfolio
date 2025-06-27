@@ -222,44 +222,44 @@ span {
 }
 
 .box1 {
-  background-image: url('img/ITER.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  position: relative;
-  z-index: 1;
+	background-image: url('img/ITER.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: relative;
+	z-index: 1;
 }
 
 .box2 {
-  background-image: url('img/HCPS.jfif');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  position: relative;
-  z-index: 1;
+	background-image: url('img/HCPS.jfif');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: relative;
+	z-index: 1;
 }
 
 .box3 {
-  background-image: url('img/KV.avif');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  position: relative;
-  z-index: 1;
+	background-image: url('img/KV.avif');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: relative;
+	z-index: 1;
 }
 
 .box1::before,
 .box2::before,
 .box3::before {
-  content: "";
-  position: absolute;
-  top: 0; 
-  left: 0;
-  width: 100%; 
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: -1;
-  border-radius: 2rem;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: -1;
+	border-radius: 2rem;
 }
 
 .services-box i {
@@ -309,6 +309,33 @@ span {
 	display: flex;
 }
 
+.portfolio-box {
+	position: relative;
+	overflow: hidden;
+	border-radius: 2rem;
+	box-shadow: 0 0 1rem var(--bg-color);
+	height: 500px;
+}
+
+.project-title {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-size: 7rem;
+	padding-top: 40%;
+	text-align: center;
+	font-weight: bold;
+	color: rgb(222, 233, 14);
+	text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+	transition: opacity 0.3s ease;
+	z-index: 2;
+}
+
+.portfolio-box:hover .project-title {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
 .portfolio-box img {
 	width: 100%;
 	transition: .5s ease;
@@ -317,6 +344,10 @@ span {
 
 .portfolio-box:hover img {
 	transform: scale(1.1);
+}
+
+.portfolio-layer {
+	z-index: 3;
 }
 
 .portfolio-box .portfolio-layer {
@@ -341,16 +372,18 @@ span {
 }
 
 .portfolio-layer h1 {
-	font-size:  5rem;
+	font-size: 5rem;
+	font-weight: bolder;
 }
 
 .portfolio-layer h4 {
 	font-size:  2rem;
-	color: var(--bg-color);
+	color: rgb(211, 242, 12);
 }
 
 .portfolio-layer p {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
+	text-align: justify;
 	margin: .3rem 0 1rem;
 }
 
