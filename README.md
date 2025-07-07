@@ -38,9 +38,9 @@ This portfolio is designed as a clean, responsive single-page application built 
 
 ## 🛠 **Tech Stack**
 
-- **Frontend:** React.js
+- **Frontend:** HTML
 - **Styling:** CSS
-- **Icons:** Font Awesome / React Icons (if used)
+- **Icons:** Font Awesome 
 - **Deployment:** GitHub Pages, Netlify, or Vercel
 
 ---
@@ -48,37 +48,24 @@ This portfolio is designed as a clean, responsive single-page application built 
 ## 📂 **Project Structure**
 
 ```plaintext
-src/
-  components/
-    Header.js
-    Hero.js
-    About.js
-    Projects.js
-    Skills.js
-    Education.js
-    Contact.js
-    Footer.js
-  assets/
-    images/
-    icons/
-  styles/
-    Hero.css
-    About.css
-    Projects.css
-    Skills.css
-    Education.css
-    Contact.css
-    Footer.css
-  App.js
-  App.css
-  index.js
+img/
+  ecommerce.png
+  HCPS.jfif
+  ITER.jpg
+  KV.avif
+  My Photo 1.jpg
+  My Pic.jpg
+  portfolio.png
+  superstore.avif
+index.html
+script.js
+style.css
 ```
 
 ---
 
 ## 📦 **Installation**
 
-Make sure you have Node.js and npm installed.
 ```
 # Clone the repo
 git clone https://github.com/ra0525/My-Portfolio.git
@@ -86,11 +73,8 @@ git clone https://github.com/ra0525/My-Portfolio.git
 # Navigate to project directory
 cd My-Portfolio
 
-# Install dependencies
-npm install
-
 # Start the development server
-npm start
+Click on Go Live to start server
 ```
 App will be live at: http://localhost:3000
 
