@@ -1,10 +1,18 @@
-# ✨ My Portfolio
+<h1 align="center"> ✨ My Portfolio </h1>
 
-![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
+A modern, fully responsive personal portfolio website built with **HTML** to showcase projects, skills, and professional background.
 
-A modern, fully responsive personal portfolio website built with **React.js** to showcase projects, skills, and professional background.
+---
+
+## **Table of Contents**
++ [Overview](#-overview)
++ [Features](#-features)
++ [Tech Stack](#-tech-stack)+
++ [Project Structure](#-project-structure)
++ [Insatllation](#-installation)
++ [Usage](#️-usage)
++ [Future Improvements](#-future-improvements)
++ [Links](#-links)
 
 ---
 
@@ -69,6 +77,7 @@ src/
 ## 📦 **Installation**
 
 Make sure you have Node.js and npm installed.
+```
 # Clone the repo
 git clone https://github.com/ra0525/My-Portfolio.git
 
@@ -80,7 +89,7 @@ npm install
 
 # Start the development server
 npm start
-
+```
 App will be live at: http://localhost:3000
 
 ## ▶️ **Usage**
@@ -106,10 +115,5 @@ App will be live at: http://localhost:3000
 + Improve accessibility & SEO
 
 ## 🌐 **Links**
-**GitHub Repo:** (https://github.com/ra0525/My-Portfolio.git) <br/>
+**GitHub Repo:** https://github.com/ra0525/My-Portfolio.git <br/>
 **Web link:** https://rishabh-myportfolio.netlify.app/
-
-
-<!-- # My-Portfolio
-Here is the link for my portfolio
-https://rishabh-myportfolio.netlify.app/ -->
