@@ -7,7 +7,7 @@ A modern, fully responsive personal portfolio website built with **HTML** to sho
 ## **Table of Contents**
 + [Overview](#-overview)
 + [Features](#-features)
-+ [Tech Stack](#-tech-stack)+
++ [Tech Stack](#-tech-stack)
 + [Project Structure](#-project-structure)
 + [Insatllation](#-installation)
 + [Usage](#️-usage)
@@ -74,6 +74,9 @@ src/
   App.css
   index.js
 ```
+
+---
+
 ## 📦 **Installation**
 
 Make sure you have Node.js and npm installed.
@@ -92,6 +95,8 @@ npm start
 ```
 App will be live at: http://localhost:3000
 
+---
+
 ## ▶️ **Usage**
 
 + Update content in the respective components (About.js, Projects.js, etc.)
@@ -101,6 +106,8 @@ App will be live at: http://localhost:3000
 + Customize CSS files to change colors, fonts, or layout.
 
 + Deploy to Netlify, Vercel, or GitHub Pages for free.
+
+---
 
 ## 💡 **Future Improvements**
 
@@ -113,6 +120,8 @@ App will be live at: http://localhost:3000
 + Add animations or transitions with Framer Motion
 
 + Improve accessibility & SEO
+
+---
 
 ## 🌐 **Links**
 **GitHub Repo:** https://github.com/ra0525/My-Portfolio.git <br/>
