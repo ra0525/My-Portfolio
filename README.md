@@ -1,4 +1,4 @@
-<h1 align="center"> ✨ My Portfolio </h1>
+<h1 align="center"> 🧑🏻‍💼 My Portfolio </h1>
 
 A modern, fully responsive personal portfolio website built with **HTML** to showcase projects, skills, and professional background.
 
@@ -76,7 +76,7 @@ cd My-Portfolio
 # Start the development server
 Click on Go Live to start server
 ```
-App will be live at: http://localhost:3000
+App will be live at: http://localhost:5500
 
 ---
 
