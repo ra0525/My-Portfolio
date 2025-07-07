@@ -27,9 +27,8 @@ This portfolio is designed as a clean, responsive single-page application built 
 ✅ Fully responsive design (works on desktop, tablet & mobile)  
 ✅ Hero section with name, title & call-to-action buttons  
 ✅ About Me section with short bio  
-✅ Projects section with image hover effect & project details  
-✅ Skills / Tech Stack section  
-✅ Education & Certifications section  
+✅ Projects section with image hover effect & project details 
+✅ Education section  
 ✅ Contact section with social media links  
 ✅ Smooth scrolling & clean navigation  
 ✅ Styled with CSS for modern & elegant look  
