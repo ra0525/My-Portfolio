@@ -59,3 +59,19 @@ const typed = new Typed('.multiple-text', {
   backDelay: 1000,
   loop: true,
 });
+
+document.querySelectorAll('.read-more-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const fullText = button.previousElementSibling;
+    fullText.classList.toggle('hidden');
+    button.textContent = fullText.classList.contains('hidden') ? 'Read More' : 'Read Less';
+  });
+});
+
+document.querySelectorAll('.colorful-text').forEach(h4 => {
+  const colors = ['red', 'blue', 'green', 'orange'];
+  const words = h4.textContent.trim().split(' ');
+  h4.innerHTML = words.map((word, i) => 
+    `<span style="color: ${colors[i % colors.length]}">${word}</span>`
+  ).join(' ');
+});
