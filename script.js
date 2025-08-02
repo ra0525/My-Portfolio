@@ -69,7 +69,7 @@ document.querySelectorAll('.read-more-btn').forEach(button => {
 });
 
 document.querySelectorAll('.colorful-text').forEach(h4 => {
-  const colors = ['red', 'blue', 'green', 'orange'];
+  const colors = ['red', '#3af5efff', '#f378edff', 'orange'];
   const words = h4.textContent.trim().split(' ');
   h4.innerHTML = words.map((word, i) => 
     `<span style="color: ${colors[i % colors.length]}">${word}</span>`
